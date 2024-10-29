@@ -6,14 +6,16 @@
 * @src: String to copy
 * Return: String copied
 */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
-	int index = 0;
+	int c = 0;
 
-	while (src[index])
+	while (1)
 	{
-		dest[index] = src[index];
-		index++;
+	dest[c] = src[c];
+	if (src[c] == '\0')
+		break;
+	c++;
 	}
 
 	return (dest);

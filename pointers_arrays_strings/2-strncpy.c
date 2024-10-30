@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
 *  _strncpy - C function that copies a string, including the

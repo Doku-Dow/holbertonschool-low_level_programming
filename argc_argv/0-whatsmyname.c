@@ -2,8 +2,9 @@
 
 /**
 *main - prints the program name, followed by a new line.
-*@argc - the number of arguments given to the program
-*@argv - the array of pointers to the arguments
+*@argc: the number of arguments given to the program
+*@argv:the array of pointers to the arguments
+*Return: the name of the program
 */
 
 int main(int argc, char *argv[])
